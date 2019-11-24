@@ -1,0 +1,23 @@
+{
+  "name": "manishcosmos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaghavaSurya/manishcosmos.git"
+  },
+  "author": "Surya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaghavaSurya/manishcosmos/issues"
+  },
+  "homepage": "https://github.com/RaghavaSurya/manishcosmos#readme",
+  "dependencies": {
+    "@azure/cosmos": "^3.5.0",
+    "express": "^4.17.1"
+  }
+}

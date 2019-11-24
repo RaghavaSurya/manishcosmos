@@ -71,7 +71,7 @@ async function queryContainer() {
 
   var app = express();
 
-  app.listen(3000 ,()=>{
+  app.listen(process.env.PORT ,()=>{
     console.log("Server running on port 3000");
   });
 
@@ -83,4 +83,8 @@ async function queryContainer() {
     .then((results)=>{res.json(results)})
     .then(() => { exit(`Completed successfully`); })
     .catch((error) => { exit(`Completed with error \${JSON.stringify(error)}`) });
+   });
+
+app.get("/getagents", (req, res, next) => {
+    res.send("Hello World!");
    });
